@@ -1,4 +1,3 @@
-// script.js
 document.getElementById("prenotazioneForm").addEventListener("submit", function (event) {
     const nome = document.getElementById("nome").value;
     const data = document.getElementById("data").value;
