@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazioni</title>
+    <!-- Collegamenti ai file CSS e JavaScript -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Prenotazioni Ristorante</h1>
+    </header>
+    <form id="prenotazioneForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+        <label for="ora">Ora:</label>
+        <input type="time" id="ora" name="ora" required>
+        <label for="persone">Numero di persone:</label>
+        <input type="number" id="persone" name="persone" min="1" required>
+        <button type="submit">Prenota</button>
+    </form>
+    <footer>
+        <p>&copy; 2024 Prenotazioni Ristorante</p>
+    </footer>
+</body>
+
+</html>
